@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Umar Faruk Abubakar | Full-Stack Developer</title>
+<style>
+:root{--bg:#fafaf9;--card:#fff;--ink:#111827;--mute:#5f6673;--line:#e5e5e3;--accent:#111827;--accent-ink:#fff;--gold:#8a6d1f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1115;--card:#171a21;--ink:#eceef2;--mute:#9a9fab;--line:#282c36;--accent:#e8e9ed;--accent-ink:#111827;--gold:#d4b25c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1115;--card:#171a21;--ink:#eceef2;--mute:#9a9fab;--line:#282c36;--accent:#e8e9ed;--accent-ink:#111827;--gold:#d4b25c;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+nav b{font-size:17px}nav .links{display:flex;gap:18px;font-size:14px;color:var(--mute)}
+nav .links a:hover{color:var(--gold)}
+.hero{padding:72px 0 56px}
+.tag{display:inline-block;font-size:13px;color:var(--gold);border:1px solid var(--line);border-radius:99px;padding:4px 12px;margin-bottom:18px}
+h1{font-size:clamp(34px,6vw,56px);line-height:1.1;margin:0 0 14px;letter-spacing:-.02em}
+.lead{font-size:clamp(17px,2.4vw,20px);color:var(--mute);max-width:640px;margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:11px 22px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--line)}
+.btn.p{background:var(--accent);color:var(--accent-ink);border-color:var(--gold)}
+.btn:hover{opacity:.88}
+section{padding:48px 0}
+h2{font-size:28px;margin:0 0 6px;letter-spacing:-.01em}
+.sub{color:var(--mute);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column}
+.card h3{margin:0 0 4px;font-size:19px}
+.card .role{font-size:13px;color:var(--gold);margin-bottom:10px}
+.card p{margin:0 0 10px;color:var(--mute);font-size:15px}
+.card p b{color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 14px}
+.chip{font-size:12.5px;padding:3px 10px;border-radius:99px;background:var(--bg);border:1px solid var(--line);color:var(--mute)}
+.card .lk{margin-top:auto;display:flex;gap:16px;font-size:14px;font-weight:600;color:var(--gold)}
+.about{display:grid;gap:28px;grid-template-columns:1.3fr 1fr}
+@media(max-width:760px){.about{grid-template-columns:1fr}nav .links{gap:12px}}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.skills .chip{font-size:14px;padding:6px 14px;color:var(--ink)}
+.work{list-style:none;margin:0;padding:0}
+.work li{padding:14px 0;border-bottom:1px solid var(--line)}
+.work li:last-child{border:0}.work span{display:block;color:var(--mute);font-size:14px}
+.contact{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:44px 20px}
+.contact .btns{justify-content:center;margin-top:18px}
+footer{text-align:center;color:var(--mute);font-size:13px;padding:30px 0 40px}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Umar F. Abubakar</b><div class="links"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="wrap">
+<span class="tag">Head of IT · Simitex &amp; Stone Code Nigeria Limited</span>
+<h1>Umar Faruk Abubakar</h1>
+<p class="lead">Full-stack developer who builds fast, reliable websites and business web apps for companies and organisations in Nigeria, from the first design to a live, deployed product.</p>
+<div class="btns"><a class="btn p" href="#projects">View projects</a><a class="btn" href="#contact">Contact me</a></div>
+</div></header>
+
+<section id="projects"><div class="wrap">
+<h2>Featured projects</h2>
+<p class="sub">Real products built for real clients, live and in use.</p>
+<div class="grid">
+
+<article class="card"><h3>Nigerian Navy Polo Team Site</h3><div class="role">Website · Hosted on Render · Live</div>
+<p><b>Problem:</b> The polo team needed a proper home online to present the team, its activities and its members.</p>
+<p><b>Built:</b> A polished, mobile-friendly site with clear sections and content that the team can keep up to date.</p>
+<div class="chips"><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Render</span><span class="chip">Git/GitHub</span></div>
+<div class="lk"><a href="https://nnpt-site.onrender.com" target="_blank" rel="noopener">Live site ↗</a><a href="https://github.com/Pcfied001/nnpt-site" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card"><h3>PEBEC Demos</h3><div class="role">Four working demos · Live</div>
+<p><b>Problem:</b> Show how digital tools could improve the business environment in Nigeria.</p>
+<p><b>Built:</b> Four working demos: a business complaint tracker with reference numbers and a 30-day response target, a state reform dashboard, a permit and registration checklist, and a port corridor monitor for Apapa and Tin Can.</p>
+<div class="chips"><span class="chip">Node.js</span><span class="chip">Dashboards</span><span class="chip">Tracking</span><span class="chip">Render</span></div>
+<div class="lk"><a href="https://pebec-demos.onrender.com" target="_blank" rel="noopener">Live site ↗</a><a href="https://github.com/pcfied001" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card"><h3>Simitex Website</h3><div class="role">Full-stack · Solo build · Live</div>
+<p><b>Problem:</b> The company needed a professional online presence to present its business and win clients.</p>
+<p><b>Built:</b> A complete full-stack website, deployed live. I made extensive improvements across both the frontend and the backend.</p>
+<div class="chips"><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Database</span><span class="chip">Responsive</span></div>
+<div class="lk"><a href="https://simitex.ng" target="_blank" rel="noopener">Live site ↗</a><a href="https://github.com/pcfied001" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card"><h3>Collxct</h3><div class="role">Fintech platform · Live</div>
+<p><b>Problem:</b> Cooperatives and associations still match bank transfers to members by hand using spreadsheets and WhatsApp groups.</p>
+<p><b>Built:</b> A payment collection platform that gives each member a dedicated virtual account, reconciles payments to invoices automatically, sends WhatsApp reminders, and offers member and admin dashboards, shareable payment links and QR codes.</p>
+<div class="chips"><span class="chip">Payments</span><span class="chip">Virtual accounts</span><span class="chip">WhatsApp</span><span class="chip">Dashboards</span></div>
+<div class="lk"><a href="https://collxct.vercel.app/home" target="_blank" rel="noopener">Live site ↗</a></div></article>
+
+<article class="card"><h3>Leave Management System</h3><div class="role">Business software · AA Rano Company</div>
+<p><b>Problem:</b> Staff leave was handled manually, which was slow and hard to track.</p>
+<p><b>Built:</b> A React system with separate employee and HR admin portals, a leave form with categorised reasons, and real-time status tracking.</p>
+<div class="chips"><span class="chip">React</span><span class="chip">JavaScript</span><span class="chip">Dashboard UI</span></div>
+<div class="lk"><a href="#contact">Request a demo</a></div></article>
+
+</div></div></section>
+
+<section id="about"><div class="wrap about">
+<div><h2>About</h2>
+<p class="sub" style="margin-bottom:14px">Computer Science graduate. Developer. Founder.</p>
+<p>I’m Umar, a Computer Science graduate and full-stack developer based in Nigeria. I build websites and web applications that solve practical business problems, and I take them from planning through to deployment and maintenance.</p>
+<p>I serve as Head of IT at Simitex and at Stone Code Nigeria Limited, where I lead technology decisions, build and maintain digital products, and keep systems running reliably. I’m fluent in English and Hausa, and I work comfortably with clients and teams across Nigeria.</p>
+<h2 style="font-size:20px;margin:26px 0 12px">Skills</h2>
+<div class="skills">
+<span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">JavaScript</span><span class="chip">Python</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">Databases (SQL / NoSQL)</span><span class="chip">REST APIs</span><span class="chip">Responsive design</span><span class="chip">Admin dashboards</span><span class="chip">Authentication</span><span class="chip">Git &amp; GitHub</span><span class="chip">Deployment (Render, Vercel)</span><span class="chip">Domains &amp; hosting</span><span class="chip">IT Support</span><span class="chip">AI Research</span>
+</div></div>
+<div><h2 style="font-size:22px">Roles</h2><ul class="work" style="margin-top:14px">
+<li><b>Head of IT</b><span>Simitex · simitex.ng</span></li>
+<li><b>Head of IT</b><span>Stone Code Nigeria Limited</span></li>
+<li><b>Full-stack developer</b><span>Freelance and client work, including AA Rano Company</span></li>
+</ul></div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="contact">
+<h2>Let’s build something</h2>
+<p class="sub" style="margin:0">Have a project or a role in mind? Send me a message.</p>
+<div class="btns">
+<a class="btn p" href="mailto:abubakarfumar2019@gmail.com">abubakarfumar2019@gmail.com</a>
+<a class="btn" href="https://github.com/pcfied001" target="_blank" rel="noopener">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/Abubakar-umar" target="_blank" rel="noopener">LinkedIn</a>
+</div></div></div></section>
+
+<footer>© 2026 Umar Faruk Abubakar</footer>
+</body>
+</html>
